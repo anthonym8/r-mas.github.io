@@ -1,0 +1,21 @@
+---
+title: Hello World
+author: Rey Anthony Masilang
+date: '2017-05-05'
+slug: hello-world
+categories:
+  - Misc
+tags: []
+banner: 'img/banners/banner-1.jpg'
+description: ''
+images: []
+menu: ''
+
+---
+
+
+
+This is my very first blog post. I started this blog so I can share some cool stuff I've been working on as I'm discovering my way through data science. I decided to start a blog of my own since I've been learning a lot about data science and many things in general from blogs of other people. I believe this is a very efficient way of sharing my own analyses and projects to others and all other people who might find their way here.  
+
+At the moment, I'm really interested in many things about R, data wrangling, data visualization, machine learning, etc. You can expect to see posts about these topics. But then, nothing is permanent so this is not set forever. Feel free to browse through my blog posts and share me your thoughts through comments.  
+
