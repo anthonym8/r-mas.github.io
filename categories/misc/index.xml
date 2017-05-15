@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Misc on r-mas</title>
+    <link>https://r-mas.github.io/categories/misc/</link>
+    <description>Recent content in Misc on r-mas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy 2017. Rey Anthony Masilang. All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 05 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://r-mas.github.io/categories/misc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://r-mas.github.io/blog/2017/05/05/2017-05-05-hello-world/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://r-mas.github.io/blog/2017/05/05/2017-05-05-hello-world/</guid>
+      <description>This is my very first blog post. I started this blog so I can share some cool stuff I’ve been working on as I’m discovering my way through data science. I decided to start a blog of my own since I’ve been learning a lot about data science and many things in general from blogs of other people. I believe this is a very efficient way of sharing my own analyses and projects to others and all other people who might find their way here.</description>
+    </item>
+    
+  </channel>
+</rss>

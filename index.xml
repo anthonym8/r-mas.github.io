@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>r-mas</title>
+    <link>https://r-mas.github.io/</link>
+    <description>Recent content on r-mas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy 2017. Rey Anthony Masilang. All Rights Reserved.</copyright>
+    <lastBuildDate>Mon, 15 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://r-mas.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exploring UITFs in the Philippines</title>
+      <link>https://r-mas.github.io/blog/2017/05/15/2017-05-15-exploring-uitfs-in-the-philippines/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://r-mas.github.io/blog/2017/05/15/2017-05-15-exploring-uitfs-in-the-philippines/</guid>
+      <description>IntroductionExploring the DataTimelineBank PortfoliosStarting CapitalFund CategoriesAnalyzing PerformanceTop Performing UITFsPerformance by Fund ClassificationAnalyzing RiskConclusionIntroductionThis post is the second part of a series of posts about Unit Investment Trust Funds or UITFs in the Philippines. In this post, I’ll dive into the dataset produced in the previous post, looking to answer more specific questions such as:</description>
+    </item>
+    
+    <item>
+      <title>Scraping Web Data on UITFs using R</title>
+      <link>https://r-mas.github.io/blog/2017/05/07/2017-05-07-scraping-web-data-on-uitfs-using-r/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://r-mas.github.io/blog/2017/05/07/2017-05-07-scraping-web-data-on-uitfs-using-r/</guid>
+      <description>IntroductionSurveying active UITFsGathering UITF symbolsCleaning upAugmenting the datasetGathering UITF InformationMerging all_uitfs and fund_infoScraping Historical Price DataSummaryIntroductionThis post is an example of scraping the web for specific data we would like to have for analysis. In this example, I’m going to gather data on UITFs in the Philippines. UITFs or Unit Investment Trust Funds are a type of pooled funds, similar but still somewhat different to mutual funds.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://r-mas.github.io/blog/2017/05/05/2017-05-05-hello-world/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://r-mas.github.io/blog/2017/05/05/2017-05-05-hello-world/</guid>
+      <description>This is my very first blog post. I started this blog so I can share some cool stuff I’ve been working on as I’m discovering my way through data science. I decided to start a blog of my own since I’ve been learning a lot about data science and many things in general from blogs of other people. I believe this is a very efficient way of sharing my own analyses and projects to others and all other people who might find their way here.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://r-mas.github.io/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>https://r-mas.github.io/post/2015-07-23-r-rmarkdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://r-mas.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://r-mas.github.io/about/</guid>
+      <description>I&amp;rsquo;m an engineer with experience in both research and industry in the fields of semiconductors, telecommunications, and computer vision. My primary interests include data science, artificial intelligence, and their practical business and social applications.
+Previously, I was a product engineer at Maxim Integrated where I analyze product specs, functionality and manufacturing data among others. Here, I formulate analytical models that explain the physical-electrical relationships that translate semiconductor variability to manufacturing yield and operating costs.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://r-mas.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://r-mas.github.io/contact/</guid>
+      <description>Got something on your mind? Do you have anything on your mind you wish to discuss? Got any ideas or suggestions? Do you want to collaborate on a project? Feel free to reach me through the form below. Or better, reach me directly through email at rey.masilang@gmail.com</description>
+    </item>
+    
+  </channel>
+</rss>
