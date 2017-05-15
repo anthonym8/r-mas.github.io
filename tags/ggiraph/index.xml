@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ggiraph on r-mas</title>
-    <link>https://r-mas.github.io/tags/ggiraph/</link>
+    <link>/tags/ggiraph/</link>
     <description>Recent content in Ggiraph on r-mas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy 2017. Rey Anthony Masilang. All Rights Reserved.</copyright>
     <lastBuildDate>Mon, 15 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://r-mas.github.io/tags/ggiraph/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/ggiraph/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Exploring UITFs in the Philippines</title>
-      <link>https://r-mas.github.io/blog/2017/05/15/exploring-uitfs-in-the-philippines/</link>
+      <link>/blog/2017/05/15/exploring-uitfs-in-the-philippines/</link>
       <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://r-mas.github.io/blog/2017/05/15/exploring-uitfs-in-the-philippines/</guid>
+      <guid>/blog/2017/05/15/exploring-uitfs-in-the-philippines/</guid>
       <description>IntroductionExploring the DataTimelineBank PortfoliosStarting CapitalFund CategoriesAnalyzing PerformanceTop Performing UITFsPerformance by Fund ClassificationAnalyzing RiskConclusionIntroductionThis post is the second part of a series of posts about Unit Investment Trust Funds or UITFs in the Philippines. In this post, I’ll dive into the dataset produced in the previous post, looking to answer more specific questions such as:</description>
     </item>
     
