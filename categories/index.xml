@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on r-mas</title>
-    <link>r-mas.github.io/categories/</link>
+    <link>https://r-mas.github.io/categories/</link>
     <description>Recent content in Categories on r-mas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy 2017. Rey Anthony Masilang. All Rights Reserved.</copyright>
     
-	<atom:link href="r-mas.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://r-mas.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Data Cleaning</title>
-      <link>r-mas.github.io/categories/data-cleaning/</link>
+      <link>https://r-mas.github.io/categories/data-cleaning/</link>
       <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>r-mas.github.io/categories/data-cleaning/</guid>
+      <guid>https://r-mas.github.io/categories/data-cleaning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eda</title>
-      <link>r-mas.github.io/categories/eda/</link>
+      <link>https://r-mas.github.io/categories/eda/</link>
       <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>r-mas.github.io/categories/eda/</guid>
+      <guid>https://r-mas.github.io/categories/eda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Finance</title>
-      <link>r-mas.github.io/categories/finance/</link>
+      <link>https://r-mas.github.io/categories/finance/</link>
       <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>r-mas.github.io/categories/finance/</guid>
+      <guid>https://r-mas.github.io/categories/finance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Misc</title>
-      <link>r-mas.github.io/categories/misc/</link>
+      <link>https://r-mas.github.io/categories/misc/</link>
       <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>r-mas.github.io/categories/misc/</guid>
+      <guid>https://r-mas.github.io/categories/misc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>r-mas.github.io/categories/r/</link>
+      <link>https://r-mas.github.io/categories/r/</link>
       <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>r-mas.github.io/categories/r/</guid>
+      <guid>https://r-mas.github.io/categories/r/</guid>
       <description></description>
     </item>
     
