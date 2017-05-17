@@ -32,7 +32,7 @@
     <item>
       <title>Finance</title>
       <link>https://r-mas.github.io/categories/finance/</link>
-      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://r-mas.github.io/categories/finance/</guid>
       <description></description>
@@ -50,9 +50,18 @@
     <item>
       <title>R</title>
       <link>https://r-mas.github.io/categories/r/</link>
-      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://r-mas.github.io/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scraping</title>
+      <link>https://r-mas.github.io/categories/scraping/</link>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://r-mas.github.io/categories/scraping/</guid>
       <description></description>
     </item>
     

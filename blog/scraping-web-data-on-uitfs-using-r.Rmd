@@ -5,6 +5,7 @@ date: '2017-05-07'
 slug: scraping-web-data-on-uitfs-using-r
 categories:
   - Finance
+  - Scraping
   - Data Cleaning
   - R
 tags:

@@ -7,15 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy 2017. Rey Anthony Masilang. All Rights Reserved.</copyright>
-    <lastBuildDate>Mon, 15 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 May 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://r-mas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Api</title>
+      <link>https://r-mas.github.io/tags/api/</link>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://r-mas.github.io/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ggiraph</title>
       <link>https://r-mas.github.io/tags/ggiraph/</link>
-      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://r-mas.github.io/tags/ggiraph/</guid>
       <description></description>
@@ -24,7 +33,7 @@
     <item>
       <title>Ggplot2</title>
       <link>https://r-mas.github.io/tags/ggplot2/</link>
-      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://r-mas.github.io/tags/ggplot2/</guid>
       <description></description>
@@ -42,7 +51,7 @@
     <item>
       <title>Uitf</title>
       <link>https://r-mas.github.io/tags/uitf/</link>
-      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://r-mas.github.io/tags/uitf/</guid>
       <description></description>
@@ -51,7 +60,7 @@
     <item>
       <title>Web Scraping</title>
       <link>https://r-mas.github.io/tags/web-scraping/</link>
-      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://r-mas.github.io/tags/web-scraping/</guid>
       <description></description>
