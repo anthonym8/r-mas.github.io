@@ -12,7 +12,7 @@ tags:
   - web scraping
   - tidyverse
   - UITF
-banner: 'img/banners/banner-3.jpg'
+banner: 'img/banners/web_scrape_banner.png'
 description: ''
 images: []
 menu: ''

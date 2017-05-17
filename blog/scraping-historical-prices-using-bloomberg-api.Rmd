@@ -13,7 +13,7 @@ tags:
   - ggplot2
   - UITF
   - API
-banner: 'img/banners/banner-4.jpg'
+banner: 'img/banners/scrape_API_banner.png'
 description: ''
 images: []
 menu: ''

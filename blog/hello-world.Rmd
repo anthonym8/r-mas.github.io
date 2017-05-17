@@ -6,7 +6,7 @@ slug: hello-world
 categories:
   - Misc
 tags: []
-banner: 'img/banners/banner-1.jpg'
+banner: 'img/banners/banner-2.jpg'
 description: ''
 images: []
 menu: ''

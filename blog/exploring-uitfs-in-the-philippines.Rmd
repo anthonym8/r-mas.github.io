@@ -12,7 +12,7 @@ tags:
   - ggplot2
   - ggiraph
   - UITF
-banner: 'img/banners/banner-2.jpg'
+banner: 'img/banners/explore_uitf_banner.png'
 description: ''
 images: []
 menu: ''
