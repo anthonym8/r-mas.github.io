@@ -21,11 +21,12 @@ output:
 ---
 
 
+
 ```{r setup_chunk, include=FALSE}
 knitr::opts_chunk$set(cache=FALSE)
 
 rm(list = ls())
-datasets_dir <- "C://Users/Rey-DLSU/Documents/R/R Projects/ph_uitf/Datasets/"
+datasets_dir <- "D:/Rey/Projects/Github/ph_uitf/Datasets/"
 
 ```
 
@@ -682,11 +683,10 @@ ggiraph(ggobj = plot, height_svg = 5, width_svg = 9, width = 1,
 
 <br />
 
-Based from the plots above, the best performing UITF for the past `r as.integer(max(price_data$Date) - min(price_data$Date))` days is . But this is just a very basic observation. An in-depth analysis of this dataset will be the subject of another post. Nevertheless, we were able to demonstrate how we can produce an interesting dataset from multiple sources in the web using R.
+Based from the plots above, the best performing UITF for the past `r as.integer(max(price_data$Date) - min(price_data$Date))` days is . But this is just a very basic observation. An in-depth analysis of this dataset will be the subject of another post. Nevertheless, we were able to demonstrate how we can produce an interesting dataset from multiple sources in the web using R. You can download the `uitf_matrix` dataset [here](https://github.com/r-mas/ph_uitf/blob/master/Datasets/uitf_matrix_05_07_2017.csv).
 
 
 
 
 <br /><br /><br /><br /><br />
-
 
