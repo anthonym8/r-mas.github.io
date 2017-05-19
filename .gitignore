@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 r-mas.github.io.Rproj
+*cache/
