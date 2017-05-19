@@ -24,7 +24,7 @@ output:
 
 
 ```{r setup_chunk, include=FALSE}
-knitr::opts_chunk$set(cache=FALSE)
+knitr::opts_chunk$set(cache=TRUE)
 
 rm(list = ls())
 datasets_dir <- "D:/Rey/Projects/Github/ph_uitf/Datasets/"

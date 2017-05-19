@@ -1,0 +1,12 @@
+base
+readr
+dplyr
+tidyr
+purrr
+lubridate
+stringr
+rmarkdown
+ggplot2
+ggiraph
+RColorBrewer
+gdtools

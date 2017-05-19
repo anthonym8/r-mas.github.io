@@ -26,3 +26,8 @@
 .navbar-default .navbar-nav > li > a {
     color: #DDDDDD;
 }
+
+/* Navbar button*/
+a i.fa, button i.fa {
+  color: #DDDDDD;
+}

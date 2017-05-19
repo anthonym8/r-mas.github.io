@@ -1,0 +1,14 @@
+base
+readr
+dplyr
+tidyr
+purrr
+lubridate
+stringr
+rjson
+xml2
+rvest
+rmarkdown
+ggplot2
+ggiraph
+gdtools
