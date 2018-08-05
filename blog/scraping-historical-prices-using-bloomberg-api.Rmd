@@ -22,7 +22,12 @@ output: blogdown::html_page
 
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(cache = FALSE)
+knitr::opts_chunk$set(cache=FALSE)
+
+rm(list = ls())
+datasets_dir <- "/home/anthonym/projects/personal_site/blogdown_source/content/blog/ph_uitf_resources/"
+
+require(stringr)
 ```
 
 ## Introduction
@@ -79,7 +84,7 @@ We can use the `get_bloomberg_prices()` function to quickly parse data for UITFs
 require(readr)
 require(dplyr)
 
-uitf_matrix <- read_csv("D:/Rey/Projects/Github/ph_uitf/Datasets/uitf_matrix_05_07_2017.csv") %>% 
+uitf_matrix <- read_csv(str_c(datasets_dir, "uitf_matrix_05_07_2017.csv")) %>% 
     mutate(`Fund Classification` = factor(`Fund Classification`,
                                           levels = c("Money Market Funds",
                                                      "Medium Term Bond Funds",
@@ -130,7 +135,7 @@ for(i in 1:nrow(uitf_matrix)) {
 
 ```{r load_price_data, warning=F, message=F, echo=F}
 
-price_data <- read_csv("D:/Rey/Projects/Github/ph_uitf/Datasets/price_data_05_17_2017")
+price_data <- read_csv(str_c(datasets_dir, "price_data_05_07_2017.csv"))
 
 ```
 
@@ -145,10 +150,12 @@ require(ggiraph)
 plot <- price_data %>% 
     arrange(Symbol, Date) %>% 
     group_by(Symbol) %>% 
+    mutate(Value=NAVPU) %>% 
     mutate(Return = 100*(Value/first(Value)-1)) %>% 
     mutate(Return_5Y = 100*(last(Value)/first(Value)-1)) %>% 
     ungroup() %>%
-    left_join(uitf_matrix[, c("Symbol", "Name", "Bank", "Fund Classification", "tooltip")]) %>% 
+    left_join(uitf_matrix[, c("Symbol", "Name", "Bank", "Fund Classification")]) %>% 
+    mutate(tooltip = Symbol) %>% 
     mutate(tooltip = paste(tooltip, 
                            paste0("5Y-Return: ", 
                                   formatC(Return_5Y, format = "f", digits = 2),

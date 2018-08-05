@@ -2,42 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uitf on r-mas</title>
-    <link>https://r-mas.github.io/tags/uitf/</link>
+    <link>/tags/uitf/</link>
     <description>Recent content in Uitf on r-mas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy 2017. Rey Anthony Masilang. All Rights Reserved.</copyright>
     <lastBuildDate>Wed, 17 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://r-mas.github.io/tags/uitf/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/uitf/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Scraping Historical Prices using Bloomberg API</title>
-      <link>https://r-mas.github.io/blog/2017/05/17/scraping-historical-prices-using-bloomberg-api/</link>
+      <link>/blog/2017/05/17/scraping-historical-prices-using-bloomberg-api/</link>
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://r-mas.github.io/blog/2017/05/17/scraping-historical-prices-using-bloomberg-api/</guid>
-      <description>IntroductionThis post is a soft update to my previous post on Exploring UITFs in the Philippines. One limitation of that study is that the historical prices used were limited to the past 12 months only. In this post, I’m going to share how to scrape up to 5 years worth of historical prices from Bloomberg.com.
-Bloomberg “bulk-time-series” APII owe a big thanks to this wonderful article on finding the API by Greg Reda.</description>
+      <guid>/blog/2017/05/17/scraping-historical-prices-using-bloomberg-api/</guid>
+      <description>Introduction This post is a soft update to my previous post on Exploring UITFs in the Philippines. One limitation of that study is that the historical prices used were limited to the past 12 months only. In this post, I’m going to share how to scrape up to 5 years worth of historical prices from Bloomberg.com.
+ Bloomberg “bulk-time-series” API I owe a big thanks to this wonderful article on finding the API by Greg Reda.</description>
     </item>
     
     <item>
       <title>Exploring UITFs in the Philippines</title>
-      <link>https://r-mas.github.io/blog/2017/05/15/exploring-uitfs-in-the-philippines/</link>
+      <link>/blog/2017/05/15/exploring-uitfs-in-the-philippines/</link>
       <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://r-mas.github.io/blog/2017/05/15/exploring-uitfs-in-the-philippines/</guid>
-      <description>IntroductionExploring the DataTimelineBank PortfoliosStarting CapitalFund CategoriesAnalyzing PerformanceTop Performing UITFsPerformance by Fund ClassificationAnalyzing RiskConclusionIntroductionThis post is the second part of a series of posts about Unit Investment Trust Funds or UITFs in the Philippines. In this post, I’ll dive into the dataset produced in the previous post, looking to answer more specific questions such as:</description>
+      <guid>/blog/2017/05/15/exploring-uitfs-in-the-philippines/</guid>
+      <description>Introduction Exploring the Data Timeline Bank Portfolios Starting Capital Fund Categories  Analyzing Performance Top Performing UITFs Performance by Fund Classification  Analyzing Risk Conclusion   Introduction This post is the second part of a series of posts about Unit Investment Trust Funds or UITFs in the Philippines.</description>
     </item>
     
     <item>
       <title>Scraping Web Data on UITFs using R</title>
-      <link>https://r-mas.github.io/blog/2017/05/07/scraping-web-data-on-uitfs-using-r/</link>
+      <link>/blog/2017/05/07/scraping-web-data-on-uitfs-using-r/</link>
       <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://r-mas.github.io/blog/2017/05/07/scraping-web-data-on-uitfs-using-r/</guid>
-      <description>IntroductionSurveying active UITFsGathering UITF symbolsCleaning upAugmenting the datasetGathering UITF InformationMerging all_uitfs and fund_infoScraping Historical Price DataSummaryIntroductionThis post is an example of scraping the web for specific data we would like to have for analysis. In this example, I’m going to gather data on UITFs in the Philippines. UITFs or Unit Investment Trust Funds are a type of pooled funds, similar but still somewhat different to mutual funds.</description>
+      <guid>/blog/2017/05/07/scraping-web-data-on-uitfs-using-r/</guid>
+      <description>Introduction Surveying active UITFs Gathering UITF symbols Cleaning up  Augmenting the dataset Gathering UITF Information Merging all_uitfs and fund_info Scraping Historical Price Data  Summary   Introduction This post is an example of scraping the web for specific data we would like to have for analysis. In this example, I’m going to gather data on UITFs in the Philippines.</description>
     </item>
     
   </channel>
