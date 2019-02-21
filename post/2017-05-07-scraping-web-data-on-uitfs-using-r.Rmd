@@ -3,7 +3,7 @@ title: Scraping Web Data on UITFs Using R
 author: Rey Anthony Masilang
 date: '2017-05-07'
 slug: scraping-web-data-on-uitfs-using-r
-image: https://raw.githubusercontent.com/r-mas/r-mas.github.io/master/img/banners/web_scrape_banner.png
+image: "img/banners/web_scrape_banner.png"
 categories:
   - Data Cleaning
   - EDA

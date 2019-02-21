@@ -3,7 +3,7 @@ title: Scraping Market Price Data using Bloomberg API
 author: Rey Anthony Masilang
 date: '2017-05-17'
 slug: scraping-market-price-data-using-bloomberg-api
-image: https://raw.githubusercontent.com/r-mas/r-mas.github.io/master/img/banners/scrape_API_banner.png
+image: "img/banners/scrape_API_banner.png"
 categories:
   - EDA
   - Finance

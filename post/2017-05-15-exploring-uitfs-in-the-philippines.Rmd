@@ -3,7 +3,7 @@ title: Exploring UITFs in the Philippines
 author: Rey Anthony Masilang
 date: '2017-05-15'
 slug: exploring-uitfs-in-the-philippines
-image: https://raw.githubusercontent.com/r-mas/r-mas.github.io/master/img/banners/explore_uitf_banner.png
+image: "img/banners/explore_uitf_banner.png"
 categories:
   - Data Cleaning
   - EDA
