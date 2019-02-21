@@ -470,12 +470,16 @@ price_data %>%
     paged_table()
 ```
 <br />
+
 # Summary
+
 At this point, we now have two sets of data on UITFs described below:
+
 |     | Dataset       | Description                     |
 |:---:|:--------------|:--------------------------------|
 |  1  | `uitf_matrix` | Table of `r nrow(uitf_matrix)` active UITFs + important details about each one such as fund classifications, risk type, etc. |
 |  2  | `price_data`  | Table of historical price data for the past 12 months for each UITF in `uitf_matrix` |
+
 We can do lots of analyses on this dataset such as comparing fund performance:
 ```{r sample_plot_1, warning=F, message=F, echo=F}
 # get returns function
