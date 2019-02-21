@@ -3,125 +3,99 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/2017/05/17/scraping-historical-prices-using-bloomberg-api/</loc>
+    <loc>https://r-mas.github.io/post/scraping-market-price-data-using-bloomberg-api/</loc>
     <lastmod>2017-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2017/05/15/exploring-uitfs-in-the-philippines/</loc>
+    <loc>https://r-mas.github.io/post/exploring-uitfs-in-the-philippines/</loc>
     <lastmod>2017-05-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2017/05/07/scraping-web-data-on-uitfs-using-r/</loc>
+    <loc>https://r-mas.github.io/post/scraping-web-data-on-uitfs-using-r/</loc>
     <lastmod>2017-05-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2017/05/05/hello-world/</loc>
-    <lastmod>2017-05-05T00:00:00+00:00</lastmod>
+    <loc>https://r-mas.github.io/about/</loc>
+    <lastmod>2015-04-14T22:17:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/api/</loc>
+    <loc>https://r-mas.github.io/</loc>
     <lastmod>2017-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/</loc>
+    <loc>https://r-mas.github.io/tags/api/</loc>
     <lastmod>2017-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://r-mas.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>/categories/data-cleaning/</loc>
-    <lastmod>2017-05-07T00:00:00+00:00</lastmod>
+    <loc>https://r-mas.github.io/categories/data-cleaning/</loc>
+    <lastmod>2017-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/eda/</loc>
+    <loc>https://r-mas.github.io/categories/eda/</loc>
+    <lastmod>2017-05-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://r-mas.github.io/categories/finance/</loc>
+    <lastmod>2017-05-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://r-mas.github.io/tags/ggiraph/</loc>
     <lastmod>2017-05-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/finance/</loc>
+    <loc>https://r-mas.github.io/tags/ggplot2/</loc>
     <lastmod>2017-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/ggiraph/</loc>
+    <loc>https://r-mas.github.io/post/</loc>
     <lastmod>2017-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/ggplot2/</loc>
+    <loc>https://r-mas.github.io/categories/scraping/</loc>
     <lastmod>2017-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/misc/</loc>
-    <lastmod>2017-05-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
+    <loc>https://r-mas.github.io/tags/</loc>
     <lastmod>2017-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/scraping/</loc>
+    <loc>https://r-mas.github.io/tags/tidyverse/</loc>
     <lastmod>2017-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2017-05-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/tidyverse/</loc>
+    <loc>https://r-mas.github.io/tags/uitf/</loc>
     <lastmod>2017-05-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/uitf/</loc>
-    <lastmod>2017-05-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/web-scraping/</loc>
-    <lastmod>2017-05-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2017-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

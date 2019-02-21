@@ -1,66 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on r-mas</title>
-    <link>/categories/</link>
-    <description>Recent content in Categories on r-mas</description>
+    <title>Categories on </title>
+    <link>https://r-mas.github.io/categories/</link>
+    <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://r-mas.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Data Cleaning</title>
-      <link>/categories/data-cleaning/</link>
-      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <link>https://r-mas.github.io/categories/data-cleaning/</link>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/data-cleaning/</guid>
+      <guid>https://r-mas.github.io/categories/data-cleaning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eda</title>
-      <link>/categories/eda/</link>
-      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      <link>https://r-mas.github.io/categories/eda/</link>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/eda/</guid>
+      <guid>https://r-mas.github.io/categories/eda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Finance</title>
-      <link>/categories/finance/</link>
+      <link>https://r-mas.github.io/categories/finance/</link>
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/finance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Misc</title>
-      <link>/categories/misc/</link>
-      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/misc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/categories/r/</link>
-      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/r/</guid>
+      <guid>https://r-mas.github.io/categories/finance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Scraping</title>
-      <link>/categories/scraping/</link>
+      <link>https://r-mas.github.io/categories/scraping/</link>
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/scraping/</guid>
+      <guid>https://r-mas.github.io/categories/scraping/</guid>
       <description></description>
     </item>
     
