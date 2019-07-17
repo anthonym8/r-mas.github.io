@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ggiraph on </title>
-    <link>https://r-mas.github.io/tags/ggiraph/</link>
+    <link>/tags/ggiraph/</link>
     <description>Recent content in Ggiraph on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 15 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://r-mas.github.io/tags/ggiraph/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/ggiraph/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Exploring UITFs in the Philippines</title>
-      <link>https://r-mas.github.io/post/exploring-uitfs-in-the-philippines/</link>
+      <link>/post/exploring-uitfs-in-the-philippines/</link>
       <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://r-mas.github.io/post/exploring-uitfs-in-the-philippines/</guid>
+      <guid>/post/exploring-uitfs-in-the-philippines/</guid>
       <description>Introduction This post is the second part of a series of posts about Unit Investment Trust Funds or UITFs in the Philippines. In this post, I’ll dive into the dataset produced in the previous post, looking to answer more specific questions such as:
 What are the available UITFs in the Philippines? Which banks offer them? What are the different types of UITFs? What are the differences between each type?</description>
     </item>
