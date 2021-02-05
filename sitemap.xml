@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://r-mas.github.io/posts/finance/</loc>
-    <lastmod>2017-05-17T00:00:00+00:00</lastmod>
+    <loc>https://r-mas.github.io/posts/analytics/</loc>
+    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://r-mas.github.io/posts/analytics/2021-02-05-spin-up-data-warehouse/</loc>
+    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://r-mas.github.io/posts/</loc>
-    <lastmod>2017-05-17T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://r-mas.github.io/</loc>
+    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://r-mas.github.io/posts/finance/</loc>
     <lastmod>2017-05-17T00:00:00+00:00</lastmod>
   </url>
   

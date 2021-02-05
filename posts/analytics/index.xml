@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analytics on r-mas</title>
+    <link>https://r-mas.github.io/posts/analytics/</link>
+    <description>Recent content in Analytics on r-mas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://r-mas.github.io/posts/analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Spin Up a Local Data Warehouse with Real-World Data</title>
+      <link>https://r-mas.github.io/posts/analytics/2021-02-05-spin-up-data-warehouse/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://r-mas.github.io/posts/analytics/2021-02-05-spin-up-data-warehouse/</guid>
+      <description>Introduction In this article, I’ll show you how you can easily spin up a data warehouse (Postgres) on your computer with real-world data from Data Science StackExchange.
+But why? Whether you’re an aspiring data scientist, an expert business intelligence developer, or anything else in between, you can use this to hone your SQL skills by practicing it on actual data collected by an actual company.
+Plus you can even connect this data warehouse instance to BI software like Tableau or Power BI so you can both practice data visualization and build an online portfolio when you publish your work on Tableau Public or Power BI Community</description>
+    </item>
+    
+  </channel>
+</rss>

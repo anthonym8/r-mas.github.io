@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How to Spin Up a Local Data Warehouse with Real-World Data</title>
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/style.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+<link rel="icon" type="image/png" href="/images/favicon_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_2.png" />
+
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+    
+<meta name="description" content="How to Spin Up a Local Data Warehouse with Real-World Data" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+
+    
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_2.png">r-mas</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  <img src="/images/main-logo_hu864bbe108f1be1ae04b57f7f2fd9d631_5637_42x0_resize_box_2.png" class="d-none" id="main-logo">
+  <img src="/images/inverted-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_42x0_resize_box_2.png" class="d-none" id="inverted-logo">
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <input type="text" value="" placeholder="Search" data-search="" id="search-box" />
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/finance/">Finance</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/finance/scraping-historical-prices-using-bloomberg-api/">Bloomberg API</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/finance/exploring-uitfs-in-the-philippines/">Exploring UITFs</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/finance/scraping-web-data-on-uitfs-using-r/">Scraping UITF Data</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/analytics/">Analytics</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/posts/analytics/2021-02-05-spin-up-data-warehouse/">Spin Up a Data Warehouse</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/misc/">Misc</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/misc/hello-world/">Hello World</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(https://r-mas.github.io/posts/analytics/2021-02-05-spin-up-data-warehouse/hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/rey.jpeg'/>
+          <h5 class="author-name">Rey Anthony Masilang</h5>
+          <p>February 5, 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>How to Spin Up a Local Data Warehouse with Real-World Data</h1>
+        </div>
+
+        <div class="post-content" id="post-content">
+          
+<script src="https://r-mas.github.io/posts/analytics/2021-02-05-spin-up-data-warehouse/index_files/header-attrs/header-attrs.js"></script>
+
+
+<p><br></p>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>In this article, I’ll show you how you can easily spin up a data warehouse (Postgres) on your computer with real-world data from <a href="https://datascience.stackexchange.com/">Data Science StackExchange</a>.</p>
+<div id="but-why" class="section level5">
+<h5><strong>But why?</strong></h5>
+<p>Whether you’re an aspiring data scientist, an expert business intelligence developer, or anything else in between, you can use this to hone your <strong>SQL skills</strong> by practicing it on actual data collected by an actual company.</p>
+<p>Plus you can even connect this data warehouse instance to BI software like <strong>Tableau</strong> or <strong>Power BI</strong> so you can both practice data visualization and build an online portfolio when you publish your work on <a href="https://public.tableau.com/en-us/gallery">Tableau Public</a> or <a href="https://community.powerbi.com/t5/Galleries/ct-p/PBI_Comm_Galleries">Power BI Community</a></p>
+<p><br></p>
+</div>
+</div>
+<div id="just-four-steps" class="section level2">
+<h2>Just four steps:</h2>
+<p>Hopefully you’re using MacOS or Ubuntu. If you’re on Windows, be more patient and Godspeed!</p>
+<ol style="list-style-type: decimal">
+<li><strong>Install Docker.</strong>
+<ul>
+<li><strong><a href="https://docs.docker.com/docker-for-windows/install/">For Windows</a></strong>, follow the instructions carefully, especially the <em>System Requirements</em> section.</li>
+<li><strong><a href="https://docs.docker.com/docker-for-mac/install/">For MacOS</a></strong>.</li>
+<li><strong><a href="https://docs.docker.com/engine/install/ubuntu/">For Ubuntu</a></strong>.
+<br><br></li>
+</ul></li>
+<li><strong>Run this command via Terminal (for Mac/Ubuntu) or via PowerShell (for Windows):</strong>
+<ul>
+<li><code>docker run -p 5439:5432 -d rmasi/misc:stack-exchange-dwh</code></li>
+<li><img src="docker_run.png" title="fig:" alt="docker run screenshot from Ubuntu terminal" /></li>
+<li>If you get permission errors, try <code>sudo docker run -p 5439:5432 -d rmasi/misc:stack-exchange-dwh</code> instead.
+<br><br></li>
+</ul></li>
+<li><strong>Connect your SQL client, e.g. <a href="https://www.sql-workbench.eu/">SQLWorkbench/J</a>. </strong>
+<ul>
+<li>Use the following parameters:
+<ul>
+<li>username: <code>user</code></li>
+<li>password: <code>password</code></li>
+<li>hostname: <code>localhost</code></li>
+<li>port: <code>5439</code></li>
+<li>JDBC URL: <code>jdbc:postgresql://localhost:5439/database</code></li>
+<li>driver: <a href="https://jdbc.postgresql.org/download.html">PostgreSQL</a></li>
+</ul></li>
+<li><img src="connect_sql_client.png" alt="SQLWorkbench/J connection window" />
+<br><br></li>
+</ul></li>
+<li><strong>Fire away!</strong>
+<ul>
+<li>Explore the tables in the <code>datascience</code> schema using the Database Explorer.</li>
+<li><img src="first_query.png" title="fig:" alt="First SQL SELECT statement" /></li>
+</ul></li>
+</ol>
+<p><br></p>
+</div>
+<div id="whats-in-this-dataset" class="section level2">
+<h2>What’s in this dataset?</h2>
+<p>The dataset is from Data Science StackExchange, similar to StackOverflow but focusing on data science topics. The tables contain structured data from the website’s user-generated content such as posts, tags, comments, users, votes, etc.</p>
+<p>Unlike other free datasets online, this is a complete copy of a relational database, perfect for practicing SQL select statements, joins, aggregate functions, etc.. Most companies store their data this way and it’s a good way to simulate actual work in an actual company.</p>
+<p><br></p>
+</div>
+<div id="some-final-words" class="section level2">
+<h2>Some final words…</h2>
+<p>As of the time of writing, I have yet to analyze the data myself. But of course, having the infrastructure is always the first step in analyzing data <em>(at least via SQL)</em>. Again, just like in the real world. Good luck and happy querying!</p>
+<p>Check out the github project here [<a href="https://www.github.com/r-mas/stack-exchange-dwh">r-mas/stack-exchange-dwh</a>].</p>
+<p><br><br>
+<span>**Banner photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/data-warehouse?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+</div>
+
+        </div>
+
+        
+        
+
+        
+      <hr />
+        <div class="row next-prev-navigator">
+
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+      
+        
+        
+        <div class="col-md-12 next-article">
+          <a href="/posts/finance/scraping-historical-prices-using-bloomberg-api/" class="btn btn-outline-info">
+            <span>Next <i class="fas fa-chevron-circle-right"></i></span>
+            <br />
+            <span>Scraping Historical Prices using Bloomberg API</span>
+          </a>
+        </div>
+      
+    
+  
+
+</div>
+
+      <hr />
+      
+      
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+  </section>
+
+    </div>
+
+    
+
+  
+
+
+
+
+  
+
+
+
+
+  
+  
+    
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<footer class="container-fluid text-center align-content-center footer pb-2">
+  <div class="container pt-5">
+    <div class="row text-left">
+      <div class="col-md-4 col-sm-12">
+        <h5>Navigation</h5>
+        
+        <ul>
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#about">About</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#skills">Skills</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#experiences">Experiences</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#education">Education</a>
+              </li>
+            
+            
+            
+            
+        </ul>
+        
+
+      </div>
+      
+      <div class="col-md-4 col-sm-12">
+        <h5>Contact me:</h5>
+        <ul>
+          
+          <li><span>Email: </span> <span>rey.masilang@gmail.com</span></li>
+          
+          <li><span>LinkedIn: </span> <span>reyanthonymasilang</span></li>
+          
+        </ul>
+      </div>
+      
+      
+    </div>
+  </div>
+  <hr />
+  <div class="container">
+    <div class="row text-left">
+      <div class="col-md-4">
+        <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
+          <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_2.png">
+          Toha
+        </a>
+      </div>
+      <div class="col-md-4 text-center">© 2020 Copyright.</div>
+      <div class="col-md-4 text-right">
+        <a id="hugo" href="https://gohugo.io/">Powered by
+        <img
+          src="/images/hugo-logo.svg"
+          alt="Hugo Logo"
+          height="18"
+        />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+<script src="/js/navbar.js"></script>
+<script src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>
